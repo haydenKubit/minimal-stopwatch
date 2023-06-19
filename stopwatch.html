@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>minimal stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css" />
+  </head>
+  <body class="light">
+    <button class="theme" onclick="change()">&#9728;</button>
+    <div class="structure">
+      <div class="timeBox">
+        <p class="time"></p>
+      </div>
+      <div class="controls">
+        <button onclick="start()">start</button>
+        <button onclick="stop()">stop</button>
+        <button onclick="reset()">reset</button>
+      </div>
+    </div>
+
+    <script src="stopwatch.js"></script>
+  </body>
+</html>
